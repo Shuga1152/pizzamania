@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    background-image: url('https://media.istockphoto.com/id/1816326509/photo/social-brunch-gathering.jpg?s=612x612&w=0&k=20&c=EWc88Vt_9Ygy91nkUxfKEoEFI_Xs7wafQX3sUwx3FB4='); /* Make sure to have a suitable image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
